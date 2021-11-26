@@ -1,0 +1,65 @@
+.header{
+    width : 100%;
+    height : 200px;
+    background-color: #00005A;
+}
+
+.navbar{
+    height : auto;
+    background-color: lightsteelblue;
+}
+
+.nav-item:hover{
+    background-color: #00005A;
+}
+
+.nav-item a{
+    color : black;
+}
+
+.nav-item a:hover{
+    color : white;
+}
+
+.nav-item:not(:last-child){
+    margin-right : 10px;
+}
+
+.navbar-collapse .btn{
+    background-color: #00005A;
+    color : white;
+}
+
+.navbar-collapse .btn:hover{
+    background-color: #00005A;
+    color : white;
+}
+
+.title-text{
+    text-transform: uppercase;
+    font-family: 'Rozha One', serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.content{
+    height: 365px;
+    width : 100%;
+}
+
+.footer{
+    width : 100%;
+    background-color: #00005A;
+    color : white;
+}
+
+.welcome-text{
+    font-weight: bold;
+    font-size : 20px;
+}
+
+.welcome-name{
+    font-weight: bold;
+    font-size : 24px;
+    color : #00005A;
+}

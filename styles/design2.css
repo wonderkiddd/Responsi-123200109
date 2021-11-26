@@ -1,0 +1,53 @@
+.add-button .btn{
+    margin-top: 10px;
+    background-color: #00005A;
+    color : white;
+}
+
+.add-button .btn:hover{
+    margin-top: 10px;
+    background-color: #00005A;
+    color : white;
+}
+
+td .btn{
+    background-color: #00005A;
+    color : white;
+}
+
+td .btn:hover{
+    background-color: #00005A;
+    color : white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-check-inline{
+    margin-top: 10px;
+}
+
+.add-inventaris{
+    margin : 35px;
+}
+
+.form-title-container{
+    background-color: #00005A;
+}
+
+.tambah-inventaris button{
+    background-color : #00005A;
+    color : white;
+}
+
+.tambah-inventaris button:hover{
+    background-color : #00005A;
+    color : white;
+}
+
+.tambah-inventaris button:not(:last-child){
+    margin-right : 20px;
+}

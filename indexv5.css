@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color: #00005A;
+	color: white;
+	height: 70px;
+	text-align: center;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.header label{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+}
+
+.nav{
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav .left-nav div{
+	margin: 5px 10px;
+}
+
+.left-nav{
+	align-items: center;
+	text-align: center;
+}
+
+.left-nav .list-btn:hover{
+	background-color: #00005A;
+	color: white;
+	margin: 0 0;
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	height: 100%;
+}
+
+.left-nav .register-btn:hover{
+	background-color: #00005A;
+	color: white;
+	margin: 0 0;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	cursor: pointer;
+	height: 100%;
+}
+
+.register-btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.register-btn a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.left-nav .home-btn:hover{
+	background-color: #00005A;
+	color: white;
+	margin: 0 0;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	height: 100%;
+}
+
+.home-btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.home-btn a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav .left-nav{
+	display: flex;
+}
+
+.logout-btn .btn{
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color: #00005A;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+	border: none;
+	outline: none;
+}
+
+.btn a{
+	text-decoration: none;
+	background-color: #00005A;
+	color: white;
+}
+
+.submenu3{
+	position: absolute;
+	width: 200px;
+	display: none;
+	background-color: lightgray;
+	color: black;
+}
+
+.list-btn .submenu3:hover{
+	background-color: lightgray;
+	color: black;
+	margin: 0 0;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.list-btn:hover .submenu3{
+	display: block;
+}
+
+.submenu3 div:hover{
+	background-color: #00005A;
+	color: white;
+	padding: 5px 10px;
+}
+
+.left-nav .list-btn:hover{
+	background-color: #00005A;
+	color: white;
+	margin: 0 0;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.main{
+	height: 81vh;
+	align-items: center;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.main label{
+	font-family: sans-serif;
+}
+
+.main .ucapan{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.main .nama{
+	font-size: 64px;
+	color: #00005A;
+}
+
+.footer{
+	background-color: #00005A;
+	color: white;
+	text-align: center;
+	align-items: center;
+	height: 30px;
+	font-family: sans-serif;
+	padding-top: 5px;
+}
+
+
+
+.main .tambah{
+	position: absolute;
+	top: 120px;
+	left: 10px;
+	background-color: #00005A;
+	color: white;
+	border: none;
+	outline: none;
+	padding: 8px;
+}
+
+.main .tambah:hover{
+  transform: scale(1.1,1.1);
+}
+
+.main .tambah:active{
+  transform: unset;
+}
+
+.main button a{
+	text-decoration: none;
+	color: white;
+}
+
+.text-center .btn{
+	margin: 5px;
+}
+
+.navedit{
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.navedit .left-nav div{
+	margin: 5px 10px;
+}
+
+.navedit .left-nav{
+	display: flex;
+}
